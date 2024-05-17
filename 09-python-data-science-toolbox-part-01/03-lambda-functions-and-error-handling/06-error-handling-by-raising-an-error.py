@@ -4,7 +4,7 @@ def shout_echo(word1, echo=1):
     exclamation marks at the end of the string."""
 
     # Raise an error with raise
-    if echo<0:
+    if echo < 0:
         raise ValueError('echo must be greater than or equal to 0')
 
     # Concatenate echo copies of word1 using *: echo_word
