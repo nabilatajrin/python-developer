@@ -1,6 +1,6 @@
 # Iterate over the first twenty entries in labeled_entries
 for entry in labeled_entries[:20]:
     # if the entry's species equals Chinstrap
-    if s.species == 'Chinstrap':
+    if entry.species == 'Chinstrap':
       # Print each entry's sex and body_mass separated by a colon
-      print(f'{s.sex}:{s.body_mass}')
+      print(f'{entry.sex}:{entry.body_mass}')
